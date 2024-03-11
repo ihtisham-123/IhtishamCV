@@ -15,10 +15,31 @@
         background: #f5f5f5;
         max-width: 800px;
         margin: 60px  auto;
-        height: 1250px;
+        height: auto;
         padding: 20px;
         box-shadow: 0 2px 20px rgba(0,0 ,0, 0.3);
     }
+    .s_items{
+        margin-top: 2rem;
+        margin-left: 2rem;
+    }
+    .s_item{
+        margin-top: 1.5rem;
+        font-size: 1.5rem;
+        display: flex;
+        gap: 0.5rem;
+        align-items: center;
+        justify-content: flex-start;
+        color: var(--text-color);
+        text-decoration: none;
+    }
+    .s_item:hover{
+        color: var(--primary-color);
+    }
+    .s_item svg{
+        width: 2rem;
+    }
+    
     .header{
         text-align: center;
     }
@@ -89,6 +110,10 @@
     }
     .right ul li{
         line-height: 2;
+    }
+    .content{
+    
+        line-height: 10px;
     }
     @media only screen and (min-width: 768px) and (max-width:991px) {
        
